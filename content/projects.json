@@ -1,0 +1,132 @@
+{
+  "body": [
+    {
+      "name": "Utilities / CLI",
+      "projects": [
+        {
+          "name": "Magic CLI",
+          "description": "Monorepo enterprise level CLI tools by Rush and Pnpm",
+          "link": "https://magic-cli.netlify.app/",
+          "icon": "i-carbon-package"
+        },
+        {
+          "name": "Magic CLI Templates",
+          "description": "Make templates simply",
+          "link": "https://github.com/vbs-plus/magic-cli-templates",
+          "icon": "i-carbon-compare"
+        },
+        {
+          "name": "zi",
+          "description": "Use the right package manager",
+          "link": "https://github.com/vbs-plus/zi",
+          "icon": "i-carbon-3d-software"
+        },
+          {
+            "name": "Utils",
+            "description": "Team front end tool library",
+            "link": "https://github.com/vbs-plus/zi",
+            "icon": "i-carbon-plug"
+          }
+      ]
+    },
+    {
+      "name": "Tools",
+      "projects": [
+        {
+          "name": "eslint-config",
+          "description": "Vbs's Eslint config presets",
+          "link": "https://github.com/vbs-plus/eslint-config",
+          "icon": "i-simple-icons-eslint"
+        },
+        {
+          "name": "vue-cli-plugin-eslint",
+          "description": "A Vue scaffold plugin based on prettier specification",
+          "link": "https://github.com/vbs-plus/vue-cli-plugin-eslint",
+          "icon": "i-simple-icons-vuedotjs"
+        },
+        {
+            "name": "compress-image",
+            "description": "Compress image tools",
+            "link": "https://github.com/vbs-plus/utils",
+            "icon": "i-carbon-image-reference"
+        },
+        {
+          "name": "fabric",
+          "description": "A collection of configuration files containing prettier, eslint, stylelint",
+          "link": "https://github.com/vbs-plus/utils",
+          "icon": "i-simple-icons-amp"
+        },
+        {
+          "name": "compress-image",
+          "description": "Compress image tools",
+          "link": "https://github.com/vbs-plus/utils",
+          "icon": "i-carbon-image-reference"
+        },
+          {
+            "name": "area-data",
+            "description": "Chinese urban area data json",
+            "link": "https://github.com/vbs-plus/area-data",
+            "icon": "i-carbon-report-data"
+          }
+      ]
+    },
+    {
+      "name": "Starter Templates",
+      "projects": [
+        {
+          "name": "pmrepo-rush-starter",
+          "description": "pnpm rush monrepo template",
+          "link": "https://github.com/vbs-plus/pmrepo-rush",
+          "icon": "i-carbon-ai-results"
+        },
+        {
+          "name": "vitese-electron",
+          "description": "Vitese electron version",
+          "link": "https://github.com/yzh990918/vitese-electron",
+          "icon": "i-simple-icons-electron"
+        },
+        {
+          "name": "vitese",
+          "description": "Template for vitest-vue3",
+          "link": "https://github.com/yzh990918/vitest-vue-starter",
+          "icon": "i-carbon-campsite"
+        },
+        {
+          "name": "vitese-react",
+          "description": "Template for vitest-react",
+          "link": "https://github.com/yzh990918/vitest-react-starter",
+          "icon": "i-simple-icons-react"
+        },
+        {
+          "name": "ts-cli-template",
+          "description": "Typescript cli starter",
+          "link": "https://github.com/yzh990918/ts-cli-template",
+          "icon": "i-simple-icons-treyarch"
+        },
+          {
+            "name": "ts-cli-template",
+            "description": "Typescript Vitest starter",
+            "link": "https://github.com/yzh990918/ts-vitest-starter",
+            "icon": "i-simple-icons-typescript"
+          }
+      ]
+    },
+    {
+      "name":"Miniprogram Ecosystem",
+      "projects": [
+       {
+        "name": "vbs-mini",
+        "description": "VBS Plus for Alipay Mini Program",
+        "link": "https://github.com/vbs-plus/vbs-mini",
+        "icon": "i-simple-icons-antdesign"
+      },
+        {
+          "name": "mini-request",
+          "description": "The request for wechat and alipay mini programs",
+          "link": "https://github.com/vbs-plus/mini-request",
+          "icon": "i-simple-icons-minutemailer"
+        }
+      ]
+    }
+  ]
+}

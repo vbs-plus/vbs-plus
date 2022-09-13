@@ -98,6 +98,18 @@
           "icon": "i-simple-icons-react"
         },
         {
+          "name": "vitese-h5",
+          "description": "Template for vitest-vue3 h5",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/vue3-vitest-h5-starter",
+          "icon": "i-carbon-application-mobile"
+        },
+        {
+          "name": "taro-react",
+          "description": "Template for taro3",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/taro-starter",
+          "icon": "i-simple-icons-trainerroad"
+        },
+        {
           "name": "ts-cli-template",
           "description": "Typescript cli starter",
           "link": "https://github.com/yzh990918/ts-cli-template",

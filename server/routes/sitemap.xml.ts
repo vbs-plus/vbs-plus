@@ -1,8 +1,8 @@
 import { SitemapStream, streamToPromise } from 'sitemap'
-import { contentPaths } from '../util/content'
 import { SiteUrl } from '~/logic'
+import { contentPaths } from '../util/content'
 
-export default defineEventHandler(async (event) => {
+export default defineEventHandler(async(event) => {
   const routes = await contentPaths(event)
 
   const sitemap = new SitemapStream({

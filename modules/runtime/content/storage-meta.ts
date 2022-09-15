@@ -1,6 +1,6 @@
-import type { ContentTransformer } from '@nuxt/content/dist/runtime/types'
 import { prefixStorage } from 'unstorage'
 import { useStorage } from '#imports'
+import type { ContentTransformer } from '@nuxt/content/dist/runtime/types'
 import type { ParsedContent } from '~/types'
 
 const contentStorage = prefixStorage(useStorage(), 'content:source')

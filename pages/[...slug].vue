@@ -17,8 +17,7 @@ if (error.value) {
 
   if (process.server && nuxtApp.ssrContext)
     nuxtApp.ssrContext.res.statusCode = 404
-}
-else {
+} else {
   useContentHead(pageContent)
 }
 </script>

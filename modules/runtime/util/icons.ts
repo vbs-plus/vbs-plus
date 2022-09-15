@@ -38,7 +38,7 @@ export const normaliseSvgAttrs = (svg: string, icon: string) => {
   }
 }
 
-export const loadIconForTag = async (tag: string) => {
+export const loadIconForTag = async(tag: string) => {
   // fix up the tag name splitting v and 1
   if (tag.startsWith('i-emojione-v-1'))
     tag = tag.replace('i-emojione-v-1', 'i-emojione-v1')

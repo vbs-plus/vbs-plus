@@ -1,7 +1,7 @@
 import { defineNuxtConfig } from 'nuxt'
-import type { Head } from '@zhead/schema'
 import { defineHead, unpackMeta } from 'zhead'
 import { SiteLanguage, SiteUrl } from './logic'
+import type { Head } from '@zhead/schema'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({

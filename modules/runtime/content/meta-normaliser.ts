@@ -11,8 +11,7 @@ export default <ContentTransformer> {
       if (content.path === '/home')
         content.path = '/'
       content.renderer = 'page'
-    }
-    else if (content._path.startsWith('/posts/')) {
+    } else if (content._path.startsWith('/posts/')) {
       content.path = content._path.replace('/posts/', '/blog/')
       content.renderer = 'post'
     }

@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-import type { PropType } from 'vue'
 import { TransitionPresets } from '@vueuse/core'
-import type { Post } from '~/types'
 import { dayNth } from '~/logic'
 import { useElementHover, useTransition } from '#imports'
+import type { Post } from '~/types'
+import type { PropType } from 'vue'
 
 const props = defineProps({
   post: Object as PropType<Post>,
@@ -51,13 +51,11 @@ const startMarquee = () => {
       marqueeDelay.value = 2500
       marqueeDuration.value = 1000
       marqueePosition.value = 0
-    }
-    else if (cardHovered.value && v === 0) {
+    } else if (cardHovered.value && v === 0) {
       marqueeDuration.value = initialDuration
       marqueePosition.value = offset
       marqueeDelay.value = initialDelay
-    }
-    else {
+    } else {
       marqueeDuration.value = initialDuration
       marqueeDelay.value = initialDelay
     }

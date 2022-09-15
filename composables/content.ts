@@ -1,9 +1,9 @@
-import type { MaybeRef } from '@vueuse/schema-org'
 import { packMeta, unpackMeta } from '@zhead/vue'
 import { useAsyncData } from '#app'
+import { SiteName, groupBy } from '~/logic'
 import { nextTick, queryContent, unref, useHead, watch } from '#imports'
 import type { JsonParsedContent, Page, Post, ProjectList } from '~/types'
-import { SiteName, groupBy } from '~/logic'
+import type { MaybeRef } from '@vueuse/schema-org'
 
 export const useProjects = () => {
   return useAsyncData('content:projects', () =>
@@ -41,8 +41,8 @@ export const useRoutesContent = <T extends Post>(path?: string) => {
   )
 }
 
-export const usePost = async (path?: string) => useRoutesContent<Post>(path)
-export const usePage = async (path?: string) => useRoutesContent<Page>(path)
+export const usePost = async(path?: string) => useRoutesContent<Post>(path)
+export const usePage = async(path?: string) => useRoutesContent<Page>(path)
 
 export const useContentHead = (doc: MaybeRef<Partial<Page>>) => {
   watch(() => doc, (doc) => {

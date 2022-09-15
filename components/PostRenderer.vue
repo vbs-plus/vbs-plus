@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import type { PropType } from 'vue'
 import { unpackMeta } from '@zhead/vue'
 import { dayNth } from '~/logic'
+import type { PropType } from 'vue'
 import type { Post } from '~/types'
 
 const props = defineProps({

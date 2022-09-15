@@ -1,6 +1,6 @@
-import type { ParsedURL } from 'ufo'
 import { hasTrailingSlash, joinURL, parseURL, stringifyParsedURL, withTrailingSlash } from 'ufo'
 import { useRoute, useRoutesContent } from '#imports'
+import type { ParsedURL } from 'ufo'
 
 const getBreadcrumbs = (input: string) => {
   const startNode = parseURL(input)
@@ -31,7 +31,7 @@ export async function useBreadcrumbs() {
   const links = getBreadcrumbs(route.path)
   return await Promise.all(links
     .reverse()
-    .map(async (path, key) => {
+    .map(async(path, key) => {
       let contentSlug = path.startsWith('/blog/') || path.startsWith('/posts/')
         ? path.replace('/blog', '/posts')
         : joinURL('/pages', path)

@@ -1,7 +1,7 @@
 import { Feed } from 'feed'
 import * as cheerio from 'cheerio'
-import { serverQueryContent } from '#content/server'
 import { SameAs, SiteDescription, SiteLanguage, SiteName, SiteTagLine, SiteUrl } from '~/logic'
+import { serverQueryContent } from '#content/server'
 
 export async function generateBlogFeed(event) {
   // Fetch all documents
@@ -31,7 +31,7 @@ export async function generateBlogFeed(event) {
     const prose = $('.prose').html()
     $ = cheerio.load(prose)
     // remove all attributes from all elements
-    $('*').each(function () {
+    $('*').each(function() {
       this.attribs = {}
     })
     const item = {

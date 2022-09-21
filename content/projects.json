@@ -110,10 +110,29 @@
           "icon": "i-simple-icons-treyarch"
         },
         {
-          "name": "ts-cli-template",
+          "name": "ts-starter",
           "description": "Typescript Vitest starter",
           "link": "https://github.com/yzh990918/ts-vitest-starter",
           "icon": "i-simple-icons-typescript"
+        },
+
+        {
+          "name": "ant-design-pro-starter",
+          "description": "Ant Design Pro Starter",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/ant-design-pro-starter",
+          "icon": "i-simple-icons-antdesign"
+        },
+        {
+          "name": "ant-design-simple-starter",
+          "description": "Ant Design Pro Simple Starter",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/ant-design-simple-starter",
+          "icon": "i-simple-icons-antdesign"
+        },
+        {
+          "name": "vue3-element-admin-starter",
+          "description": "Vue3 element-plus admin-starter",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/vue3-element-admin-starter",
+          "icon": "i-ep-element-plus"
         }
       ]
     },

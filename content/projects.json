@@ -61,6 +61,12 @@
           "description": "Chinese urban area data json",
           "link": "https://github.com/vbs-plus/area-data",
           "icon": "i-carbon-report-data"
+        },
+        {
+          "name": "JSON TSC",
+          "description": "A plugin that makes it easier to convert JSON to Typescript interface.",
+          "link": "https://github.com/vbs-plus/json-tsc",
+          "icon": "i-carbon-json-reference"
         }
       ]
     },
@@ -115,7 +121,6 @@
           "link": "https://github.com/yzh990918/ts-vitest-starter",
           "icon": "i-simple-icons-typescript"
         },
-
         {
           "name": "ant-design-pro-starter",
           "description": "Ant Design Pro Starter",

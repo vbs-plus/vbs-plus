@@ -4,8 +4,4 @@
 
 [build]
   publish = "dist"
-  command = "npx pnpm@7.5.0 i --frozen-lockfile false && npx pnpm@7.5.0 build"
-  ignore = "git diff --quiet HEAD^ HEAD . ../content"
-
-[functions]
-  node_bundler = "esbuild"
+  command = "pnpm run build"
